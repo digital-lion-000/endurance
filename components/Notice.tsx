@@ -1,3 +1,5 @@
+
+import React from "react";
 export function Notice({ title, children }: { title: string; children: React.ReactNode }) {
   return (
     <section className="rounded-2xl border border-slate-200 bg-slate-50 p-4">
